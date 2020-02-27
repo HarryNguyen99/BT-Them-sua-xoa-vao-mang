@@ -1,4 +1,4 @@
-let name = ["Nguyen Van Tan", "Nguyen Van Ta", "Nguyen Thi Yen "];
+let name = ["Nguyen Van Tan", "Nguyen Van Ta", "Nguyen Thi Yen"];
 let search1 = [];
 
 function listNv() {
@@ -51,7 +51,7 @@ function search2() {
         html += i + 1;
         html += "</td>";
         html += "<td>";
-        html += name[i];
+        html += search1[i];
         html += "</td>";
         html += "<td>";
         html += "<button id = '" + i + "' onclick = 'repair(this.id)'>";
